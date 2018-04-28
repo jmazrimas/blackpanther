@@ -1,8 +1,20 @@
 .overview {
-  
+
 }
 
 .summary-text {
   max-width: 500px;
   margin: $none $pm-md;
+}
+
+.circle-image {
+  width: 350px;
+  height: 350px;
+  margin-bottom: $pm-xlg;
+  border-radius: 50%;
+  overflow: hidden;
+  img {
+    margin: auto;
+    height: 100%;
+  }
 }

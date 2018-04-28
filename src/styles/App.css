@@ -4,7 +4,7 @@
 .app-header {
   background: url(../images/header-background.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 400px;
+  height: 200px;
   padding: 20px;
   color: white; }
 
@@ -12,19 +12,35 @@
   font-family: 'Playfair Display', serif;
   font-size: 50px; }
 
-.navbar button {
-  border: none;
-  padding: 15px; }
-  .navbar button:hover {
-    background-color: lightgrey;
-    cursor: pointer;
-    -webkit-transition: background-color 200ms linear;
-    -ms-transition: background-color 200ms linear;
-    transition: background-color 200ms linear; }
+.navbar {
+  align-items: stretch; }
+  .navbar button {
+    border: none;
+    padding: 15px;
+    background: white; }
+    .navbar button:hover {
+      background-color: lightgrey;
+      cursor: pointer;
+      -webkit-transition: background-color 200ms linear;
+      -ms-transition: background-color 200ms linear;
+      transition: background-color 200ms linear; }
+    @media (hover: none) {
+      .navbar button:hover {
+        background-color: inherit; } }
 
 .summary-text {
   max-width: 500px;
   margin: 0 15px; }
+
+.circle-image {
+  width: 350px;
+  height: 350px;
+  margin-bottom: 60px;
+  border-radius: 50%;
+  overflow: hidden; }
+  .circle-image img {
+    margin: auto;
+    height: 100%; }
 
 .app {
   font-family: 'Open Sans', sans-serif; }
