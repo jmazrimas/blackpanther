@@ -5,8 +5,14 @@ class PackagedService extends Component {
     const { service } = this.props;
     return (
       <div className="packaged-service">
+        <div className="service-image">
+          <img src={service.image} />
+        </div>
         <div>{service.name}</div>
         <div>{service.price}</div>
+        {
+          service.descriptions.map(d => <div className="des-line">{d}</div>)
+        }
       </div>
     );
   }

@@ -60,7 +60,8 @@ class Services extends Component {
   render() {
     return (
       <div className="services">
-        <div className="content con-padded flex col center-center">
+        <div className="content con-padded flex col">
+          <div>Services</div>
           <div className="service-list">
             {
               serviceList.map(s => (

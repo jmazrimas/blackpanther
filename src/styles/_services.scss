@@ -1,6 +1,9 @@
 .service-list {
   display: flex;
   flex-wrap: wrap;
+  &.packaged {
+    justify-content: space-around;
+  }
 }
 
 .basic-service {
@@ -8,7 +11,6 @@
   flex: 1 0 40%;
   margin: $pm-md;
   justify-content: space-between;
-  margin-bottom: $pm-md;
   .s-name {
     margin-right: $pm-md;
   }
@@ -18,14 +20,21 @@
 }
 
 .packaged-service {
-  flex: 1 0 40%;
+  width: 200px;
+  background: $grey-light;
   margin: $pm-md;
-  justify-content: space-between;
-  margin-bottom: $pm-md;
   .s-name {
     margin-right: $pm-md;
   }
   .s-price {
     margin-left: $pm-md;
+  }
+  .service-image {
+    width: 200px;
+    height: 170px;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
   }
 }
