@@ -1,5 +1,8 @@
-.hours-contact > div {
-  flex-grow: 1; }
+.hours-contact {
+  align-items: center;
+  justify-content: flex-start; }
+  .hours-contact > div {
+    flex-grow: 1; }
 
 .app-header {
   background: url(../images/header-background.jpg) no-repeat center center fixed;
