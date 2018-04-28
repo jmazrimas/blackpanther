@@ -12,7 +12,7 @@ import Services from './components/Services';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Navbar />
         <Header />
         <Overview />
