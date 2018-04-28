@@ -21,6 +21,10 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans');
+        @import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+      </style>
         <div className="content">
           <div className='navbar flex left-center'>
             <button onClick={() => scrollToComponent(this.Book, scrollConfig)}>Book</button>

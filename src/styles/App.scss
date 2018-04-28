@@ -1,10 +1,15 @@
 @import './variables';
+@import './mixins';
 @import './contact';
 @import './header';
 @import './navbar';
 @import './overview';
 @import './packagedservices';
 @import './services';
+
+.app {
+  @include font-main;
+}
 
 .flex {
   display: flex;
@@ -28,13 +33,6 @@
 
 .con-padded {
   padding: $pm-xlg;
-}
-
-.app-header {
-  background-color: $grey-dark;
-  height: 150px;
-  padding: 20px;
-  color: white;
 }
 
 .app-title {

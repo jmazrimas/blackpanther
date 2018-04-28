@@ -1,3 +1,15 @@
-.header {
-  height: 300px;
+.app-header {
+  // background-image: url('../images/header-background-color.jpg');
+  // background-image: url(./header-background-color.jpg);
+  // background-color: $grey-dark;
+  background: url(../images/header-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+  padding: 20px;
+  color: white;
+}
+
+.main-title {
+  @include font-alt;
+  font-size: 50px;
 }

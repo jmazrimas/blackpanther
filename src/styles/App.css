@@ -1,8 +1,16 @@
 .hours-contact > div {
   flex-grow: 1; }
 
-.header {
-  height: 300px; }
+.app-header {
+  background: url(../images/header-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+  padding: 20px;
+  color: white; }
+
+.main-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px; }
 
 .navbar button {
   border: none;
@@ -17,6 +25,9 @@
 .summary-text {
   max-width: 500px;
   margin: 0 15px; }
+
+.app {
+  font-family: 'Open Sans', sans-serif; }
 
 .flex {
   display: flex; }
@@ -35,12 +46,6 @@
 
 .con-padded {
   padding: 60px; }
-
-.app-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white; }
 
 .app-title {
   font-size: 1.5em; }
