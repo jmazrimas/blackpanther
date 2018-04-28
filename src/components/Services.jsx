@@ -20,7 +20,7 @@ const serviceList = [
   },
   {
     name: "COLOR BLENDING OR FULL COVERAGE",
-    price: "$40 & UP",
+    price: "$40+",
   },
   {
     name: "MOUSTACHE AND BEARD TRIM",
@@ -44,11 +44,11 @@ const serviceList = [
   },
   {
     name: "WAXING: CHEST OR BACK",
-    price: "$45 & UP",
+    price: "$45+",
   },
   {
     name: "CHEST TRIM",
-    price: "$20 & UP",
+    price: "$20+",
   },
   {
     name: "DETOX FACIAL",
@@ -61,7 +61,6 @@ class Services extends Component {
     return (
       <div className="services">
         <div className="content con-padded flex col center-center">
-          <div>Services</div>
           <div className="service-list">
             {
               serviceList.map(s => (

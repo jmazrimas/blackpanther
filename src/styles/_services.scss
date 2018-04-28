@@ -1,3 +1,31 @@
-.services {
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.basic-service {
+  border-bottom: 1px solid $grey-light;
+  flex: 1 0 40%;
+  margin: $pm-md;
+  justify-content: space-between;
+  margin-bottom: $pm-md;
+  .s-name {
+    margin-right: $pm-md;
+  }
+  .s-price {
+    margin-left: $pm-md;
+  }
+}
+
+.packaged-service {
+  flex: 1 0 40%;
+  margin: $pm-md;
+  justify-content: space-between;
+  margin-bottom: $pm-md;
+  .s-name {
+    margin-right: $pm-md;
+  }
+  .s-price {
+    margin-left: $pm-md;
+  }
 }

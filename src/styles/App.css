@@ -45,6 +45,31 @@
     margin: auto;
     height: 100%; }
 
+.service-list {
+  display: flex;
+  flex-wrap: wrap; }
+
+.basic-service {
+  border-bottom: 1px solid lightgrey;
+  flex: 1 0 40%;
+  margin: 15px;
+  justify-content: space-between;
+  margin-bottom: 15px; }
+  .basic-service .s-name {
+    margin-right: 15px; }
+  .basic-service .s-price {
+    margin-left: 15px; }
+
+.packaged-service {
+  flex: 1 0 40%;
+  margin: 15px;
+  justify-content: space-between;
+  margin-bottom: 15px; }
+  .packaged-service .s-name {
+    margin-right: 15px; }
+  .packaged-service .s-price {
+    margin-left: 15px; }
+
 .app {
   font-family: 'Open Sans', sans-serif; }
 

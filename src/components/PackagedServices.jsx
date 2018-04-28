@@ -60,7 +60,7 @@ class PackagedServices extends Component {
       <div className="services">
         <div className="content con-padded flex col center-center">
           <div>Packaged Services</div>
-          <div>
+          <div className="service-list">
             {
               packagedServiceList.map(ps => (<PackagedService service={ps} />))
             }
