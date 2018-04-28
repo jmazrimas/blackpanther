@@ -4,6 +4,7 @@ import scrollToComponent from 'react-scroll-to-component';
 import logo from './logo.svg';
 import './styles/App.css';
 
+import Book from './components/Book';
 import Header from './components/Header';
 import Contact from './components/Contact';
 import Overview from './components/Overview';
@@ -22,12 +23,14 @@ class App extends Component {
       <div className="app">
         <div className="content">
           <div className='navbar flex left-center'>
+            <button onClick={() => scrollToComponent(this.Book, scrollConfig)}>Book</button>
             <button onClick={() => scrollToComponent(this.Services, scrollConfig)}>Services</button>
             <button onClick={() => scrollToComponent(this.PackagedServices, scrollConfig)}>Packaged Services</button>
             <button onClick={() => scrollToComponent(this.Contact, scrollConfig)}>Contact</button>
           </div>
         </div>
         <Header ref={(section) => { this.Header = section; }} />
+        <Book ref={(section) => { this.Book = section; }} />
         <Overview ref={(section) => { this.Overview = section; }} />
         <Services ref={(section) => { this.Services = section; }} />
         <PackagedServices ref={(section) => { this.PackagedServices = section; }} />
