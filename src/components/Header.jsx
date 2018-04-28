@@ -4,7 +4,9 @@ class Header extends Component {
   render() {
     return (
       <div className="app-header flex center-center">
-        Grooming Lounge Chicago
+        <div className="content">
+          Grooming Lounge Chicago
+        </div>
       </div>
     );
   }

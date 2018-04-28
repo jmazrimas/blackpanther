@@ -4,8 +4,15 @@
 .header {
   height: 300px; }
 
-.navbar {
-  height: 300px; }
+.navbar button {
+  border: none;
+  padding: 15px; }
+  .navbar button:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear; }
 
 .overview {
   height: 300px; }
@@ -23,9 +30,13 @@
   .flex.center-center {
     justify-content: center;
     align-items: center; }
+  .flex.left-center {
+    justify-content: flex-start;
+    align-items: center; }
 
-.app {
-  background-color: lightgrey; }
+.content {
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .app-header {
   background-color: #222;
