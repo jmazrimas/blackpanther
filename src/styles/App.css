@@ -1,8 +1,5 @@
-.hours-contact {
-  align-items: center;
-  justify-content: flex-start; }
-  .hours-contact > div {
-    flex-grow: 1; }
+.hours-contact > div {
+  flex-grow: 1; }
 
 .app-header {
   background: url(../images/header-background.jpg) no-repeat center center fixed;
@@ -11,6 +8,12 @@
   padding: 20px;
   color: white;
   text-transform: uppercase; }
+
+.header-container {
+  max-width: 500px; }
+
+.header-image {
+  max-width: 100%; }
 
 .main-title {
   font-family: 'Raleway', sans-serif;

@@ -7,6 +7,14 @@
   text-transform: uppercase;
 }
 
+.header-container {
+  max-width: 500px;
+}
+
+.header-image {
+  max-width: 100%;
+}
+
 .main-title {
   @include font-alt;
   letter-spacing: 7px;
