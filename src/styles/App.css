@@ -1,33 +1,36 @@
-.hours-contact > div {
-  flex-basis: 50%;
-  padding: 60px; }
-  .hours-contact > div:first-child {
-    margin-left: -15px; }
-  .hours-contact > div:last-child {
-    margin-right: -15px; }
-
-.hours-contact .hours > div:first-child, .hours-contact .contact > div:first-child {
-  font-family: 'Lato', sans-serif;
-  font-size: 30px;
-  margin-bottom: 30px; }
-
-.hours-contact .hours {
-  background: #333;
-  color: white; }
-
-.hours-contact .contact-wrapper {
-  position: relative; }
-  .hours-contact .contact-wrapper::after {
-    content: "";
-    background: url(../images/brush.jpg);
-    background-size: cover;
-    opacity: 0.2;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1; }
+.hours-contact {
+  flex-direction: column; }
+  .hours-contact > div {
+    flex-basis: 50%;
+    padding: 60px;
+    margin: 0 -15px; }
+  @media only screen and (min-width: 800px) {
+    .hours-contact {
+      flex-direction: row; }
+      .hours-contact > div:first-child {
+        margin-left: -15px; }
+      .hours-contact > div:last-child {
+        margin-right: -15px; } }
+  .hours-contact .hours > div:first-child, .hours-contact .contact > div:first-child {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px; }
+  .hours-contact .hours {
+    background: #333;
+    color: white; }
+  .hours-contact .contact-wrapper {
+    position: relative; }
+    .hours-contact .contact-wrapper::after {
+      content: "";
+      background: url(../images/brush.jpg);
+      background-size: cover;
+      opacity: 0.2;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1; }
 
 .app-header {
   background: url(../images/header-background.jpg) no-repeat center center fixed;
