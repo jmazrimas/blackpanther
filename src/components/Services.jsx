@@ -61,7 +61,7 @@ class Services extends Component {
     return (
       <div className="services">
         <div className="content con-padded flex col">
-          <div>Services</div>
+          <div className="section-title">Services</div>
           <div className="service-list">
             {
               serviceList.map(s => (
