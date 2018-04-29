@@ -4,12 +4,15 @@ import PackagedService from './services/PackagedService';
 import hottoddy from '../images/services/hottoddy.jpg';
 import oldfashioned from '../images/services/oldfashioned.jpg';
 import whiterussian from '../images/services/whiterussian.jpg';
+import highball from '../images/services/highball.jpg';
+import metropolitan from '../images/services/whiterussian.jpg';
+import theusual from '../images/services/theusual.jpg';
 
 const packagedServiceList = [
   {
     price: "$23",
     name: "THE HIGHBALL",
-    image: hottoddy,
+    image: highball,
     descriptions: [
       "High and Tight Buzz Cut & Cleanse. No muss, no fuss."
     ]
@@ -17,7 +20,7 @@ const packagedServiceList = [
   {
     price: "$29",
     name: "THE USUAL",
-    image: hottoddy,
+    image: theusual,
     descriptions: [
       "Traditional haircut.",
       "Cleanse ⬧ Haircut ⬧ Styling",
@@ -27,7 +30,7 @@ const packagedServiceList = [
   {
     price: "$34",
     name: "THE METROPOLITAN",
-    image: hottoddy,
+    image: metropolitan,
     descriptions: [
       "Modern day classic for the professional who likes to keep it simple and stylish, with a little pampering.",
       "Haircut  ⬧ Cleanse  ⬧ Paraffin hand treatment ⬧ Eyebrow  clean-up ⬧ Razor nape finishing  ⬧ Hot towel ⬧ Two week complimentary touch up",
