@@ -64,13 +64,25 @@ const packagedServiceList = [
       "Cleansing ⬧ Toning ⬧ Exfoliation ⬧ Skin hydration ⬧ Hot towel ⬧ Cleanse ⬧ Haircut ⬧ Styling",
       "Two week complimentary touch up",
     ]
+  },
+  {
+    price: "",
+    name: "",
+    image: undefined,
+    descriptions: []
+  },
+  {
+    price: "",
+    name: "",
+    image: undefined,
+    descriptions: []
   }
 ]
 
 class PackagedServices extends Component {
   render() {
     return (
-      <div className="services">
+      <div className="packaged-services">
         <div className="content con-padded flex col">
           <div className="section-title">Packaged Services</div>
           <div className="service-list packaged">
