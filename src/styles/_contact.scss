@@ -29,8 +29,6 @@
   }
   .contact-wrapper {
     position: relative;
-    // background: url(../images/brush.jpg) no-repeat center center;
-    // background-size: cover;
     &::after {
       content: "";
       background: url(../images/brush.jpg);

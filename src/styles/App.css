@@ -43,11 +43,6 @@
 .header-image {
   max-width: 100%; }
 
-.main-title {
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 7px;
-  font-size: 50px; }
-
 .book-online {
   display: flex;
   align-items: center;
@@ -55,7 +50,7 @@
   justify-content: center;
   height: 75px; }
   .book-online button {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lato', sans-serif;
     background: #222;
     width: 100%;
     border: none;

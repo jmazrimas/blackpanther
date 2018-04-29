@@ -15,11 +15,11 @@
   max-width: 100%;
 }
 
-.main-title {
-  @include font-alt;
-  letter-spacing: 7px;
-  font-size: 50px;
-}
+// .main-title {
+//   @include font-alt;
+//   letter-spacing: 7px;
+//   font-size: 50px;
+// }
 
 .book-online {
   display: flex;
@@ -28,7 +28,7 @@
   justify-content: center;
   height: 75px;
   button {
-    @include font-curvy;
+    @include font-fine;
     background: $grey-dark;
     width: 100%;
     border: none;
