@@ -34,6 +34,7 @@
 
 .app-header {
   background: url(../images/header-background.jpg) no-repeat center center fixed;
+  background-color: black;
   background-size: cover;
   height: 200px;
   padding: 20px;
