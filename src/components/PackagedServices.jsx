@@ -5,7 +5,7 @@ import hottoddy from '../images/services/hottoddy.jpg';
 import oldfashioned from '../images/services/oldfashioned.jpg';
 import whiterussian from '../images/services/whiterussian.jpg';
 import highball from '../images/services/highball.jpg';
-import metropolitan from '../images/services/whiterussian.jpg';
+import metropolitan from '../images/services/metropolitan.jpg';
 import theusual from '../images/services/theusual.jpg';
 
 const packagedServiceList = [
