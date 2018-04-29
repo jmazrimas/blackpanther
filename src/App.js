@@ -23,11 +23,7 @@ class App extends Component {
     return (
       <div className="app">
       <style>
-        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans');
-        @import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
-        @import url('https://fonts.googleapis.com/css?family=Lato:300');
-        @import url('https://fonts.googleapis.com/css?family=Raleway:900');
-        @import url('https://fonts.googleapis.com/css?family=Roboto:100');
+        @import url('https://fonts.googleapis.com/css?family=Lato:300|Open+Sans:300');
       </style>
         <div className="content">
           <div className='navbar flex left-center'>
