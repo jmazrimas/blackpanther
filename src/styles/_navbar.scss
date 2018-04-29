@@ -1,0 +1,25 @@
+.navbar {
+  // height: 300px;
+  align-items: stretch;
+  button {
+    @include font-fine;
+    font-size: 16px;
+    border: none;
+    padding: $pm-md;
+    background: white;
+
+    &:hover {
+      background-color: $grey-light;
+      cursor: pointer;
+      -webkit-transition: background-color 200ms linear;
+      -ms-transition: background-color 200ms linear;
+      transition: background-color 200ms linear;
+    }
+
+    @media (hover: none) {
+        &:hover {
+          background-color: inherit;
+        }
+    }
+  }
+}

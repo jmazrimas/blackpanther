@@ -1,0 +1,52 @@
+.contact {
+
+}
+
+.hours-contact {
+  // align-items: center;
+  // justify-content: flex-start;
+  flex-direction: column;
+  >div {
+    // flex-grow: 1;
+    flex-basis: 50%;
+    padding: $pm-xlg;
+    margin: $none -15px;
+  }
+  @media only screen and (min-width: 800px) {
+    flex-direction: row;
+    >div {
+      &:first-child {
+        margin-left: -15px;
+      }
+      &:last-child {
+        margin-right: -15px;
+      }
+    }
+  }
+  .hours, .contact {
+    >div:first-child {
+      @include font-fine;
+      font-size: 30px;
+      margin-bottom: $pm-lg;
+    }
+  }
+  .hours {
+    background: $grey-dark-less;
+    color: white;
+  }
+  .contact-wrapper {
+    position: relative;
+    &::after {
+      content: "";
+      background: url(../images/brush.jpg);
+      background-size: cover;
+      opacity: 0.2;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+    }
+  }
+}

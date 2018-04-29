@@ -1,0 +1,51 @@
+@import './variables';
+@import './mixins';
+@import './contact';
+@import './header';
+@import './navbar';
+@import './overview';
+@import './packagedservices';
+@import './services';
+
+.app {
+  @include font-main;
+}
+
+.flex {
+  display: flex;
+  &.col {
+    flex-direction: column;
+  }
+  &.center-center {
+    justify-content: center;
+    align-items: center;
+  }
+  &.left-center {
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.content {
+  padding-left: $pm-md;
+  padding-right: $pm-md;
+}
+
+.con-padded {
+  padding: $pm-xlg;
+}
+
+.app-title {
+  font-size: 1.5em;
+}
+
+.section-title {
+  margin: $pm-md;
+  font-size: 30px;
+}
+
+.image-section {
+  background: url(../images/straight-razor.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 300px;
+}
