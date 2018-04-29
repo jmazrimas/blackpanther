@@ -20,5 +20,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://jmazrimas.github.io/blackpanther"
+  "homepage": "https://jmazrimas.github.io/blackpanther/"
 }
