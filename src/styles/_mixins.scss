@@ -2,6 +2,14 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+@mixin font-fine {
+  // font-family: 'Josefin Sans', sans-serif;
+  // font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
+  // font-family: 'Raleway', sans-serif;
+  // font-family: 'Roboto', sans-serif;
+}
+
 @mixin font-alt {
   // font-family: 'Josefin Sans', sans-serif;
   // font-family: 'Playfair Display', serif;

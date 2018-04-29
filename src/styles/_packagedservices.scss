@@ -1,3 +1,35 @@
 .packaged-services {
   background-color: $accent;
 }
+
+.packaged-service {
+  @include font-fine;
+  &.blank {
+    height: 0px;
+  }
+  flex-basis: 200px;
+  margin: $pm-md;
+  .s-name {
+    margin-right: $pm-md;
+  }
+  .s-price {
+    margin-left: $pm-md;
+  }
+  .name-price {
+    // display: flex;
+    // justify-content: space-between;
+    font-size: 18px;
+  }
+  .des-line {
+    font-size: 14px;
+    margin: $pm-md $none;
+  }
+  .service-image {
+    width: 200px;
+    height: 170px;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+}
