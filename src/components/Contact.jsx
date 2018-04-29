@@ -11,12 +11,14 @@ class Contact extends Component {
             <div>Saturday: 9am - 7pm</div>
             <div>Sunday: Closed</div>
           </div>
-          <div className="contact">
-            <div>CONTACT</div>
-            <div>1258 N Milwaukee Ave</div>
-            <div>Chicago, 60622</div>
-            <div>groomingloungechicago@gmail.com</div>
-            <div>773-342-1258</div>
+          <div className="contact-wrapper">
+            <div className="contact">
+              <div>CONTACT</div>
+              <div>1258 N Milwaukee Ave</div>
+              <div>Chicago, 60622</div>
+              <div>groomingloungechicago@gmail.com</div>
+              <div>773-342-1258</div>
+            </div>
           </div>
         </div>
       </div>
