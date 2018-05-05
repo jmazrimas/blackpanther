@@ -8,6 +8,7 @@ class Header extends Component {
         <div className="content flex col center-center">
           <div className="header-container">
             <img className="header-image" src={glWhite} />
+            <div className="sub-header">Meet your new favorite barbershop</div>
           </div>
         </div>
       </div>

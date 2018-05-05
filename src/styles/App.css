@@ -38,8 +38,7 @@
   background-size: cover;
   height: 200px;
   padding: 20px;
-  color: white;
-  text-transform: uppercase; }
+  color: white; }
 
 .header-container {
   max-width: 500px; }
@@ -69,6 +68,12 @@
       -webkit-transition: all 200ms linear;
       -ms-transition: all 200ms linear;
       transition: all 200ms linear; }
+
+.sub-header {
+  font-family: 'Lato', sans-serif;
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center; }
 
 .navbar {
   align-items: stretch; }
@@ -153,8 +158,8 @@
   .flex.center-center {
     justify-content: center;
     align-items: center; }
-  .flex.left-center {
-    justify-content: flex-start;
+  .flex.space-between-center {
+    justify-content: space-between;
     align-items: center; }
 
 .content {
@@ -175,3 +180,6 @@
   background: url(../images/straight-razor.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 300px; }
+
+.social-media > img {
+  margin-left: 15px; }
