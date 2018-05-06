@@ -16,9 +16,7 @@ const packagedServiceList = [
     descriptions: [
       "High and Tight Buzz Cut & Cleanse. No muss, no fuss."
     ],
-    includes: [
-
-    ]
+    includes: []
   },
   {
     price: "$29",
@@ -26,10 +24,9 @@ const packagedServiceList = [
     image: theusual,
     descriptions: [
       "Traditional haircut.",
-      "Two week complimentary touch up",
     ],
     includes: [
-      "Cleanse", "Haircut", "Styling",
+      "Haircut", "Cleanse", "Styling", "Two week complimentary touch up"
     ]
   },
   {
@@ -40,7 +37,7 @@ const packagedServiceList = [
       "Modern day classic for the professional who likes to keep it simple and stylish, with a little pampering.",
     ],
     includes: [
-      "Haircut","Cleanse","Paraffin hand treatment", "Eyebrow  clean-up", "Razor nape finishing","Hot towel", "Two week complimentary touch up",
+      "Haircut","Cleanse","Paraffin hand treatment", "Eyebrow  clean-up", "Razor nape finishing","Hot towel", "Two week complimentary touch up"
     ]
   },
   {
@@ -60,10 +57,9 @@ const packagedServiceList = [
     image: whiterussian,
     descriptions: [
       "Appear refreshed, confident and youthful. Camouflage the grey with a blending tint. Leaves hair natural looking and fades without any pigment change.",
-      "Two week complimentary touch up",
     ],
     includes: [
-      "Cleanse", "Haircut", "Styling"
+      "Haircut", "Cleanse", "Styling", "Two week complimentary touch up"
     ]
   },
   {
@@ -71,11 +67,10 @@ const packagedServiceList = [
     name: "THE HOT TODDY",
     image: hottoddy,
     descriptions: [
-      "Rejuvenating men’s face treatment for the C-suite executive to the construction worker; every man should have a good facial regimen.",
-      "Two week complimentary touch up",
+      "Rejuvenating men’s face treatment for the C-suite executive to the construction worker; every man should have a good facial regimen."
     ],
     includes: [
-      "Cleansing", "Toning", "Exfoliation", "Skin hydration", "Hot towel", "Cleanse", "Haircut", "Styling",
+      "Haircut", "Cleanse", "Styling",, "Cleansing", "Toning", "Exfoliation", "Skin hydration", "Hot towel", "Two week complimentary touch up"
     ]
   },
   {
