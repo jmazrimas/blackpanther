@@ -131,6 +131,13 @@
     overflow: hidden; }
     .packaged-service .service-image img {
       width: 100%; }
+  .packaged-service .includes > div {
+    font-size: 12px; }
+    .packaged-service .includes > div:first-child {
+      font-size: 14px;
+      margin-bottom: 7px;
+      border-bottom: 1px solid grey;
+      font-style: normal; }
 
 .service-list {
   display: flex;
