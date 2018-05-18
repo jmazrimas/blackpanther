@@ -35,10 +35,13 @@
 .app-header {
   background: url(../images/header-background.jpg) no-repeat center center fixed;
   background-color: black;
-  background-size: 100% 100%;
+  background-size: 100vw;
   height: 200px;
   padding: 20px;
   color: white; }
+  @media (max-width: 767px) {
+    .app-header {
+      background-attachment: initial; } }
 
 .header-container {
   max-width: 500px; }
@@ -83,6 +86,9 @@
     border: none;
     padding: 15px;
     background: white; }
+    @media (max-width: 767px) {
+      .navbar button {
+        font-size: 14px; } }
     .navbar button:hover {
       background-color: lightgrey;
       cursor: pointer;
@@ -185,8 +191,11 @@
 
 .image-section {
   background: url(../images/straight-razor.jpg) no-repeat center center fixed;
-  background-size: 100% 100%;
+  background-size: 100vw;
   height: 300px; }
+  @media (max-width: 767px) {
+    .image-section {
+      background-attachment: initial; } }
 
 .social-media > img {
   margin-left: 15px; }

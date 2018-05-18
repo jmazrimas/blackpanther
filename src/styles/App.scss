@@ -50,7 +50,10 @@
 
 .image-section {
   background: url(../images/straight-razor.jpg) no-repeat center center fixed;
-  background-size: 100% 100%;
+  @media (max-width: 767px) {
+    background-attachment: initial;
+  }
+  background-size: 100vw;
   height: 300px;
 }
 

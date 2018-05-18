@@ -42,7 +42,7 @@ class App extends Component {
             <div>
               <button onClick={() => scrollToComponent(this.Book, scrollConfig)}>Book</button>
               <button onClick={() => scrollToComponent(this.Services, scrollConfig)}>Services</button>
-              <button onClick={() => scrollToComponent(this.PackagedServices, scrollConfig)}>Packaged Services</button>
+              <button onClick={() => scrollToComponent(this.PackagedServices, scrollConfig)}>Packages</button>
               <button onClick={() => scrollToComponent(this.Contact, scrollConfig)}>Contact</button>
             </div>
           </div>
