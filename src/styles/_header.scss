@@ -1,11 +1,14 @@
 .app-header {
   background: url(../images/header-background.jpg) no-repeat center center fixed;
   background-color: black;
-  background-size: 100% 100%;
+  background-size: 100vw;
   height: 200px;
   padding: 20px;
   color: white;
   // text-transform: uppercase;
+  @media (max-width: 767px) {
+    background-attachment: initial;
+  }
 }
 
 .header-container {

@@ -4,6 +4,9 @@
   button {
     @include font-fine;
     font-size: 16px;
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
     border: none;
     padding: $pm-md;
     background: white;
