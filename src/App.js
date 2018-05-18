@@ -4,6 +4,9 @@ import scrollToComponent from 'react-scroll-to-component';
 import logo from './logo.svg';
 import './styles/App.css';
 
+import insta from './images/insta.svg';
+import twitter from './images/twitter.svg';
+
 import Book from './components/Book';
 import Header from './components/Header';
 import Contact from './components/Contact';
@@ -18,6 +21,15 @@ const scrollConfig = {
   duration: 1000
 }
 
+// <div className="flex social-media">
+//   <a href="https://www.google.com">
+//     <img src={insta} />
+//   </a>
+//   <a href="https://www.google.com">
+//     <img src={twitter} />
+//   </a>
+// </div>
+
 class App extends Component {
   render() {
     return (
@@ -26,11 +38,13 @@ class App extends Component {
         @import url('https://fonts.googleapis.com/css?family=Lato:300|Open+Sans:300');
       </style>
         <div className="content">
-          <div className='navbar flex left-center'>
-            <button onClick={() => scrollToComponent(this.Book, scrollConfig)}>Book</button>
-            <button onClick={() => scrollToComponent(this.Services, scrollConfig)}>Services</button>
-            <button onClick={() => scrollToComponent(this.PackagedServices, scrollConfig)}>Packaged Services</button>
-            <button onClick={() => scrollToComponent(this.Contact, scrollConfig)}>Contact</button>
+          <div className='navbar flex space-between-center'>
+            <div>
+              <button onClick={() => scrollToComponent(this.Book, scrollConfig)}>Book</button>
+              <button onClick={() => scrollToComponent(this.Services, scrollConfig)}>Services</button>
+              <button onClick={() => scrollToComponent(this.PackagedServices, scrollConfig)}>Packaged Services</button>
+              <button onClick={() => scrollToComponent(this.Contact, scrollConfig)}>Contact</button>
+            </div>
           </div>
         </div>
         <Header ref={(section) => { this.Header = section; }} />

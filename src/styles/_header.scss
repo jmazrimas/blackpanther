@@ -1,11 +1,11 @@
 .app-header {
   background: url(../images/header-background.jpg) no-repeat center center fixed;
   background-color: black;
-  background-size: cover;
+  background-size: 100% 100%;
   height: 200px;
   padding: 20px;
   color: white;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 .header-container {
@@ -48,4 +48,11 @@
       transition: all 200ms linear;
     }
   }
+}
+
+.sub-header {
+  @include font-fine;
+  margin-top: $pm-lg;
+  font-size: 20px;
+  text-align: center;
 }

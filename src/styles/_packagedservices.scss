@@ -32,4 +32,16 @@
       width: 100%;
     }
   }
+  .includes {
+    >div {
+      font-size: 12px;
+      // font-style: italic;
+      &:first-child {
+        font-size: 14px;
+        margin-bottom: $pm-sm;
+        border-bottom: 1px solid $grey;
+        font-style: normal;
+      }
+    }
+  }
 }

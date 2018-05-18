@@ -15,6 +15,16 @@ class PackagedService extends Component {
         {
           service.descriptions.map(d => <div className="des-line">{d}</div>)
         }
+        {
+          service.includes && service.includes.length > 0 ?
+          <div className="includes">
+            <div>Includes</div>
+            { service.includes &&
+              service.includes.map(d => <div>{d}</div>)
+            }
+          </div> :
+          <div />
+        }
       </div>
     );
   }

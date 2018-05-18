@@ -27,7 +27,7 @@ const serviceList = [
     price: "$15",
   },
   {
-    name: "URBAN SHAVE (HOT TOWEL , BALM)",
+    name: "URBAN SHAVE (HOT TOWEL, BALM)",
     price: "$35",
   },
   {
