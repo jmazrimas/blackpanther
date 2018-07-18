@@ -58,7 +58,10 @@
 }
 
 .social-media {
-  >img {
+  >a {
     margin-left: $pm-md;
+    &:hover {
+      opacity: 0.7;
+    }
   }
 }

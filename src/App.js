@@ -45,6 +45,14 @@ class App extends Component {
               <button onClick={() => scrollToComponent(this.PackagedServices, scrollConfig)}>Packages</button>
               <button onClick={() => scrollToComponent(this.Contact, scrollConfig)}>Contact</button>
             </div>
+            <div className="flex social-media">
+              <a href="https://www.instagram.com/groomingloungechicago/">
+                <img src={insta} />
+              </a>
+              <a href="https://twitter.com/groomingchicago">
+                <img src={twitter} />
+              </a>
+            </div>
           </div>
         </div>
         <Header ref={(section) => { this.Header = section; }} />
