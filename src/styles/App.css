@@ -197,5 +197,7 @@
     .image-section {
       background-attachment: initial; } }
 
-.social-media > img {
+.social-media > a {
   margin-left: 15px; }
+  .social-media > a:hover {
+    opacity: 0.7; }
