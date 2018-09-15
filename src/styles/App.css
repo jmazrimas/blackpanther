@@ -47,7 +47,7 @@
   .app-header.with-video {
     padding: 0; }
   .app-header video {
-    opacity: 0.4; }
+    width: 100%; }
 
 .header-container {
   max-width: 500px; }
@@ -85,7 +85,8 @@
   text-align: center; }
 
 .header-video {
-  height: 400px;
+  width: 100%;
+  max-height: 400px;
   overflow: hidden; }
 
 .text-video {

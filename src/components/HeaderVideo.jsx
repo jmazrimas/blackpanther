@@ -13,8 +13,8 @@ class HeaderVideo extends Component {
         </div>
         <div className="header-video">
           <video id="background-video" loop muted autoPlay>
-            <source src="https://s3.amazonaws.com/groominglounge-video/gl-video.mp4" type="video/mp4" />
-            <source src="https://s3.amazonaws.com/groominglounge-video/gl-video.mp4" type="video/ogg" />
+            <source src="https://s3.amazonaws.com/groominglounge-video/gl-video-short-dark.mp4" type="video/mp4" />
+            <source src="https://s3.amazonaws.com/groominglounge-video/gl-video-short-dark.mp4" type="video/ogg" />
           </video>
         </div>
       </div>
