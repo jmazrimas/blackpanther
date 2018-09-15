@@ -18,7 +18,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "deploy-prod": "rm -rf ./build/* && npm run build && ./deploy-prod.sh",
+    "deploy-stage": "rm -rf ./build/* && npm run build && ./deploy-stage.sh"
   },
   "homepage": "https://jmazrimas.github.io/blackpanther/"
 }
