@@ -1,10 +1,19 @@
 .overview {
-
+  >div {
+    flex-wrap: wrap;
+  }
+  .content {
+    >div {
+      margin: $pm-md;
+    }
+  }
 }
 
 .summary-text {
   max-width: 500px;
-  margin: $none $pm-md;
+  // margin: $none $pm-md;
+  margin-top: $pm-md;
+  line-height: 30px;
 }
 
 // .circle-image {
@@ -21,5 +30,5 @@
 
 .video-wrapper {
   max-width: 600px;
-  width: 75%;
+  margin-top: $none;
 }

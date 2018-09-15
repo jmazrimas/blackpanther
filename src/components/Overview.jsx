@@ -8,7 +8,7 @@ class Overview extends Component {
   render() {
     return (
       <div className="overview">
-        <div className="content con-padded flex col center-center">
+        <div className="content con-padded flex center-center">
           {
             // <div className="circle-image">
             //   <img src={about} />
