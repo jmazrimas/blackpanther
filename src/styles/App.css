@@ -35,13 +35,19 @@
 .app-header {
   background: url(../images/header-background.jpg) no-repeat center center fixed;
   background-color: black;
-  background-size: 100vw;
-  height: 200px;
   padding: 20px;
-  color: white; }
+  color: white;
+  position: relative; }
+  .app-header.with-video {
+    background: none;
+    background-color: black; }
   @media (max-width: 767px) {
     .app-header {
       background-attachment: initial; } }
+  .app-header.with-video {
+    padding: 0; }
+  .app-header video {
+    opacity: 0.4; }
 
 .header-container {
   max-width: 500px; }
@@ -78,6 +84,17 @@
   font-size: 20px;
   text-align: center; }
 
+.header-video {
+  height: 400px;
+  overflow: hidden; }
+
+.text-video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
 .navbar {
   align-items: stretch; }
   .navbar button {
@@ -109,6 +126,18 @@
   max-width: 500px;
   margin-top: 15px;
   line-height: 30px; }
+
+.circle-image {
+  width: 350px;
+  height: 350px;
+  min-width: 350px;
+  min-height: 350px;
+  margin-bottom: 60px;
+  border-radius: 50%;
+  overflow: hidden; }
+  .circle-image img {
+    margin: auto;
+    height: 100%; }
 
 .video-wrapper {
   max-width: 600px;

@@ -8,7 +8,7 @@ import insta from './images/insta.svg';
 import twitter from './images/twitter.svg';
 
 import Book from './components/Book';
-import Header from './components/Header';
+import Header from './components/HeaderVideo';
 import Contact from './components/Contact';
 import Overview from './components/Overview';
 import PackagedServices from './components/PackagedServices';
