@@ -89,6 +89,15 @@
   max-height: 400px;
   overflow: hidden; }
 
+.video-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.5; }
+
 .text-video {
   position: absolute;
   top: 0;
@@ -143,6 +152,9 @@
 .video-wrapper {
   max-width: 600px;
   margin-top: 0; }
+
+.z-top {
+  z-index: 5; }
 
 .packaged-services {
   background-color: #efece2; }
