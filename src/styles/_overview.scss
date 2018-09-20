@@ -1,20 +1,34 @@
 .overview {
-
+  >div {
+    flex-wrap: wrap;
+  }
+  .content {
+    >div {
+      margin: $pm-md;
+    }
+  }
 }
 
 .summary-text {
   max-width: 500px;
-  margin: $none $pm-md;
+  // margin: $none $pm-md;
+  margin-top: $pm-md;
+  line-height: 30px;
 }
 
-.circle-image {
-  width: 350px;
-  height: 350px;
-  margin-bottom: $pm-xlg;
-  border-radius: 50%;
-  overflow: hidden;
-  img {
-    margin: auto;
-    height: 100%;
-  }
+// .circle-image {
+//   width: 350px;
+//   height: 350px;
+//   margin-bottom: $pm-xlg;
+//   border-radius: 50%;
+//   overflow: hidden;
+//   img {
+//     margin: auto;
+//     height: 100%;
+//   }
+// }
+
+.video-wrapper {
+  max-width: 600px;
+  margin-top: $none;
 }

@@ -99,19 +99,20 @@
       .navbar button:hover {
         background-color: inherit; } }
 
+.overview > div {
+  flex-wrap: wrap; }
+
+.overview .content > div {
+  margin: 15px; }
+
 .summary-text {
   max-width: 500px;
-  margin: 0 15px; }
+  margin-top: 15px;
+  line-height: 30px; }
 
-.circle-image {
-  width: 350px;
-  height: 350px;
-  margin-bottom: 60px;
-  border-radius: 50%;
-  overflow: hidden; }
-  .circle-image img {
-    margin: auto;
-    height: 100%; }
+.video-wrapper {
+  max-width: 600px;
+  margin-top: 0; }
 
 .packaged-services {
   background-color: #efece2; }
