@@ -4,33 +4,35 @@ import PackagedService from './services/PackagedService';
 import hottoddy from '../images/services/hottoddy.jpg';
 import oldfashioned from '../images/services/oldfashioned.jpg';
 import whiterussian from '../images/services/whiterussian.jpg';
-import highball from '../images/services/highball.jpg';
-import metropolitan from '../images/services/metropolitan.jpg';
-import theusual from '../images/services/theusual.jpg';
+import highball from '../images/services/newhighball.jpg';
+// import metropolitan from '../images/services/metropolitan.jpg';
+// import theusual from '../images/services/theusual.jpg';
+import metropolitan from '../images/services/theusual.jpg';
+import americano from '../images/services/americano.jpg';
 
 const packagedServiceList = [
   {
-    price: "$23",
+    price: "$29",
     name: "THE HIGHBALL",
     image: highball,
     descriptions: [
       "High and Tight Buzz Cut & Cleanse. No muss, no fuss."
     ],
-    includes: []
+    includes: ["Haircut", "Cleanse", "Razor neck finishing", "Two week complimentary touch up"]
   },
+  // {
+  //   price: "$29",
+  //   name: "THE USUAL",
+  //   image: theusual,
+  //   descriptions: [
+  //     "Traditional haircut.",
+  //   ],
+  //   includes: [
+  //     "Haircut", "Cleanse", "Styling", "Two week complimentary touch up"
+  //   ]
+  // },
   {
-    price: "$29",
-    name: "THE USUAL",
-    image: theusual,
-    descriptions: [
-      "Traditional haircut.",
-    ],
-    includes: [
-      "Haircut", "Cleanse", "Styling", "Two week complimentary touch up"
-    ]
-  },
-  {
-    price: "$34",
+    price: "$39",
     name: "THE METROPOLITAN",
     image: metropolitan,
     descriptions: [
@@ -41,7 +43,7 @@ const packagedServiceList = [
     ]
   },
   {
-    price: "$44",
+    price: "$49",
     name: "THE OLD FASHIONED",
     image: oldfashioned,
     descriptions: [
@@ -52,7 +54,7 @@ const packagedServiceList = [
     ]
   },
   {
-    price: "$49",
+    price: "$59",
     name: "THE WHITE RUSSIAN",
     image: whiterussian,
     descriptions: [
@@ -63,7 +65,18 @@ const packagedServiceList = [
     ]
   },
   {
-    price: "$65",
+    price: "$77",
+    name: "THE AMERICANO",
+    image: americano,
+    descriptions: [
+      "Every man wants to be the guy who looks fearless. An American classic, clean-cut, well groomed and ready to take on the world.",
+    ],
+    includes: [
+      "Haircut", "Cleanse", "Styling", "Straight razor spa shave", "Eyebrow clean up", "Paraffin hand treatment", "Two week complimentary touch up"
+    ]
+  },
+  {
+    price: "$79",
     name: "THE HOT TODDY",
     image: hottoddy,
     descriptions: [
