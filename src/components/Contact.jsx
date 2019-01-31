@@ -8,7 +8,7 @@ class Contact extends Component {
           <div className="hours">
             <div>OPENING HOURS</div>
             <div>Mon - Fri: 11am - 8pm</div>
-            <div>Saturday: 9am - 7pm</div>
+            <div>Saturday: 9am - 6pm</div>
             <div>Sunday: Closed</div>
           </div>
           <div className="contact-wrapper">
