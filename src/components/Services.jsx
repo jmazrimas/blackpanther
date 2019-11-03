@@ -73,6 +73,7 @@ class Services extends Component {
               ))
             }
           </div>
+          <div className="cash-only">Cash Only</div>
         </div>
       </div>
     );
