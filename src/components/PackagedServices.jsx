@@ -18,7 +18,7 @@ const packagedServiceList = [
     descriptions: [
       "High and Tight Buzz Cut & Cleanse. No muss, no fuss."
     ],
-    includes: ["Haircut", "Cleanse", "Razor neck finishing", "Two week complimentary touch up"]
+    includes: ["Haircut", "Cleanse", "Razor neck finishing"]
   },
   // {
   //   price: "$29",
@@ -50,7 +50,7 @@ const packagedServiceList = [
       "Being well groomed never goes out of style, turning Old School into New School.",
     ],
     includes: [
-      "Haircut", "Cleanse", "Eyebrow clean-up", "Beard trim","Razor nape finishing", "Hot towel", "Beard oil and balm treatment",
+      "Haircut", "Cleanse", "Eyebrow clean-up", "Beard trim","Razor nape finishing", "Hot towel", "Beard oil and balm treatment", "Two week complimentary touch up",
     ]
   },
   {
@@ -61,7 +61,7 @@ const packagedServiceList = [
       "Appear refreshed, confident and youthful. Camouflage the grey with a blending tint. Leaves hair natural looking and fades without any pigment change.",
     ],
     includes: [
-      "Haircut", "Cleanse", "Styling", "Two week complimentary touch up"
+      "Haircut", "Cleanse", "Styling", "Eyebrow clean-up", "Two week complimentary touch up",
     ]
   },
   {
@@ -83,7 +83,7 @@ const packagedServiceList = [
       "Rejuvenating men’s face treatment for the C-suite executive to the construction worker; every man should have a good facial regimen."
     ],
     includes: [
-      "Haircut", "Cleanse", "Styling",, "Cleansing", "Toning", "Exfoliation", "Skin hydration", "Hot towel", "Two week complimentary touch up"
+      "Haircut", "Cleanse", "Styling",, "Cleansing", "Toning", "Exfoliation", "Skin hydration", "Hot towel", "Eyebrow clean-up", "Two week complimentary touch up",
     ]
   },
   {
@@ -111,6 +111,7 @@ class PackagedServices extends Component {
               packagedServiceList.map(ps => (<PackagedService service={ps} />))
             }
           </div>
+          <div className="cash-only">Cash Only</div>
         </div>
       </div>
     );
