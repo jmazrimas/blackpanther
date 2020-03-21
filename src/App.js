@@ -13,7 +13,8 @@ import Contact from './components/Contact';
 import Overview from './components/Overview';
 import PackagedServices from './components/PackagedServices';
 import Services from './components/Services';
-import ImageSection from './components/ImageSection'
+import ImageSection from './components/ImageSection';
+import Announcement from './components/Announcement';
 
 const scrollConfig = {
   offset: 0,
@@ -56,6 +57,7 @@ class App extends Component {
           </div>
         </div>
         <Header ref={(section) => { this.Header = section; }} />
+        <Announcement />
         <Book ref={(section) => { this.Book = section; }} />
         <Overview ref={(section) => { this.Overview = section; }} />
         <ImageSection />
