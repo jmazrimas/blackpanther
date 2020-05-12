@@ -1,3 +1,17 @@
+.policies {
+    background-color: $accent;
+}
+
 .policy-list {
     padding: $pm-md;
+    font-size: 14px;
+    >div {
+        margin-bottom: $pm-md   ;
+    }
+}
+
+.policy-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: $pm-md;
 }
