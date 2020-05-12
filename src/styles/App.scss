@@ -6,6 +6,7 @@
 @import './overview';
 @import './packagedservices';
 @import './services';
+@import './policies';
 
 .app {
   @include font-main;
