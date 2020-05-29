@@ -4,10 +4,8 @@ import PackagedService from './services/PackagedService';
 import hottoddy from '../images/services/hottoddy.jpg';
 import oldfashioned from '../images/services/oldfashioned.jpg';
 import whiterussian from '../images/services/whiterussian.jpg';
-import highball from '../images/services/newhighball.jpg';
-// import metropolitan from '../images/services/metropolitan.jpg';
-// import theusual from '../images/services/theusual.jpg';
-import metropolitan from '../images/services/theusual.jpg';
+import highball from '../images/services/highball.jpg';
+import metropolitan from '../images/services/metropolitan.jpg';
 import americano from '../images/services/americano.jpg';
 
 const packagedServiceList = [

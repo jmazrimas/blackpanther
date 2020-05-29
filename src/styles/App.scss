@@ -6,6 +6,7 @@
 @import './overview';
 @import './packagedservices';
 @import './services';
+@import './policies';
 
 .app {
   @include font-main;
@@ -72,3 +73,46 @@
   text-align: center;
   opacity: 0.5;
 }
+
+
+.announcement {
+  padding: 30px 15vw;
+  background-color: #efece2;
+  .large-text {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.announcement > div > div {
+  margin: 5px;
+}
+
+.announcement > div > div.link-wrapper {
+  width: 100%;
+  /* padding: 0px; */
+  margin: 10px 0px;
+}
+
+.announcement a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  background: #222;
+  padding: 15px;
+  color: white;
+  display: block;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.announcement a span {
+  font-size: 20px;
+}
+
+.announcement a:hover {
+  background: #333;
+  cursor: pointer;
+  -webkit-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  transition: all 200ms linear;
+ }

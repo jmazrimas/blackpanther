@@ -2,7 +2,7 @@
   flex-direction: column; }
   .hours-contact > div {
     flex-basis: 50%;
-    padding: 60px;
+    padding: 75px;
     margin: 0 -15px; }
   @media only screen and (min-width: 800px) {
     .hours-contact {
@@ -134,7 +134,7 @@
     margin: 15px 0; }
   .packaged-service .service-image {
     width: 200px;
-    height: 170px;
+    height: 200px;
     overflow: hidden; }
     .packaged-service .service-image img {
       width: 100%; }
@@ -161,6 +161,25 @@
     margin-right: 15px; }
   .basic-service .s-price {
     margin-left: 15px; }
+
+.policies {
+  background-color: #efece2; }
+
+.policy > ul, .policy div {
+  margin-top: 10px; }
+  .policy > ul.policy-title, .policy div.policy-title {
+    margin-top: 30px;
+    margin-bottom: 15px; }
+
+.policy-list {
+  padding: 15px;
+  font-size: 14px; }
+  .policy-list > div {
+    margin-bottom: 15px; }
+
+.policy-title {
+  text-transform: uppercase;
+  font-size: 18px; }
 
 .app {
   font-family: 'Open Sans', sans-serif; }
@@ -211,18 +230,18 @@
 
 .announcement {
   padding: 30px 15vw;
-  background-color: #efece2;
-}
+  background-color: #efece2; }
+  .announcement .large-text {
+    font-size: 30px;
+    text-align: center; }
 
 .announcement > div > div {
-  margin: 5px;
-}
+  margin: 5px; }
 
 .announcement > div > div.link-wrapper {
   width: 100%;
   /* padding: 0px; */
-  margin: 10px 0px;
-}
+  margin: 10px 0px; }
 
 .announcement a {
   text-decoration: none;
@@ -232,17 +251,14 @@
   color: white;
   display: block;
   text-align: center;
-  border-radius: 2px;
-}
+  border-radius: 2px; }
 
 .announcement a span {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .announcement a:hover {
   background: #333;
   cursor: pointer;
   -webkit-transition: all 200ms linear;
   -ms-transition: all 200ms linear;
-  transition: all 200ms linear;
- }
+  transition: all 200ms linear; }

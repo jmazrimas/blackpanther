@@ -6,10 +6,16 @@ class Announcement extends Component {
     return (
       <div className="flex center-center announcement">
         <div className="flex flex col">
-          <div>
-            It's with heavy sadness that, due to the COVID-19 mandatory shutdown of non-essential businesses, our shop will be closed until April 7.
+          {/* <div>
+            It's with heavy sadness that, due to the COVID-19 mandatory shutdown of non-essential businesses, our shop will be closed until further notice.
+          </div> */}
+          <div className="large-text">
+            We will be re-opening June 3rd!
           </div>
-          <div>
+          <div className="large-text">
+            Online bookings are now open below.
+          </div>
+          {/* <div>
             We look forward to providing you with great services soon!​
           </div>
           <div>
@@ -23,7 +29,7 @@ class Announcement extends Component {
           </div>
           <div>
             Be safe. Be healthy. And thank you for your social sharing!
-          </div>
+          </div> */}
         </div>
       </div>
     );

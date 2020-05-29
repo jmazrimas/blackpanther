@@ -15,6 +15,7 @@ import PackagedServices from './components/PackagedServices';
 import Services from './components/Services';
 import ImageSection from './components/ImageSection';
 import Announcement from './components/Announcement';
+import Policies from './components/Policies';
 
 const scrollConfig = {
   offset: 0,
@@ -45,6 +46,7 @@ class App extends Component {
               <button onClick={() => scrollToComponent(this.Services, scrollConfig)}>Services</button>
               <button onClick={() => scrollToComponent(this.PackagedServices, scrollConfig)}>Packages</button>
               <button onClick={() => scrollToComponent(this.Contact, scrollConfig)}>Contact</button>
+              <button onClick={() => scrollToComponent(this.Policies, scrollConfig)}>Policies</button>
             </div>
             <div className="flex social-media">
               <a href="https://www.instagram.com/groomingloungechicago/">
@@ -64,6 +66,7 @@ class App extends Component {
         <Services ref={(section) => { this.Services = section; }} />
         <PackagedServices ref={(section) => { this.PackagedServices = section; }} />
         <Contact ref={(section) => { this.Contact = section; }} />
+        <Policies ref={(section) => { this.Policies = section; }} />
       </div>
     );
   }
