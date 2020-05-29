@@ -12,10 +12,10 @@ class Announcement extends Component {
           <div className="large-text">
             We will be re-opening June 3rd!
           </div>
-          <div className="large-text" style={{ marginBottom: '30px' }}>
+          <div className="large-text">
             Online bookings are now open below.
           </div>
-          <div>
+          {/* <div>
             We look forward to providing you with great services soon!​
           </div>
           <div>
@@ -29,7 +29,7 @@ class Announcement extends Component {
           </div>
           <div>
             Be safe. Be healthy. And thank you for your social sharing!
-          </div>
+          </div> */}
         </div>
       </div>
     );
