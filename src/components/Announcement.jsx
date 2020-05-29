@@ -6,8 +6,14 @@ class Announcement extends Component {
     return (
       <div className="flex center-center announcement">
         <div className="flex flex col">
-          <div>
+          {/* <div>
             It's with heavy sadness that, due to the COVID-19 mandatory shutdown of non-essential businesses, our shop will be closed until further notice.
+          </div> */}
+          <div className="large-text">
+            We will be re-opening June 3rd!
+          </div>
+          <div className="large-text" style={{ marginBottom: '30px' }}>
+            Online bookings are now open below.
           </div>
           <div>
             We look forward to providing you with great services soon!​

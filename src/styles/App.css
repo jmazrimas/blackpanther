@@ -231,6 +231,9 @@
 .announcement {
   padding: 30px 15vw;
   background-color: #efece2; }
+  .announcement .large-text {
+    font-size: 30px;
+    text-align: center; }
 
 .announcement > div > div {
   margin: 5px; }
