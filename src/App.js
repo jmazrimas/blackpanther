@@ -59,7 +59,7 @@ class App extends Component {
           </div>
         </div>
         <Header ref={(section) => { this.Header = section; }} />
-        <Announcement />
+        {/* <Announcement /> */}
         <Book ref={(section) => { this.Book = section; }} />
         <Overview ref={(section) => { this.Overview = section; }} />
         <ImageSection />
