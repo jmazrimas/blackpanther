@@ -21,6 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "deploy-prod": "rm -rf ./build/* && npm run build && ./deploy-prod.sh",
+    "deploy:prod:cf-invalidate": "aws cloudfront create-invalidation --paths / --distribution-id E39LWSDI729KOS",
     "deploy-stage": "rm -rf ./build/* && npm run build && ./deploy-stage.sh"
   },
   "homepage": "https://jmazrimas.github.io/blackpanther/"
