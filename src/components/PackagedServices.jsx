@@ -10,7 +10,7 @@ import americano from '../images/services/americano.jpg';
 
 const packagedServiceList = [
   {
-    price: "$29",
+    price: "$37",
     name: "THE HIGHBALL",
     image: highball,
     descriptions: [
@@ -30,7 +30,7 @@ const packagedServiceList = [
   //   ]
   // },
   {
-    price: "$39",
+    price: "$49",
     name: "THE METROPOLITAN",
     image: metropolitan,
     descriptions: [
@@ -41,7 +41,7 @@ const packagedServiceList = [
     ]
   },
   {
-    price: "$49",
+    price: "$64",
     name: "THE OLD FASHIONED",
     image: oldfashioned,
     descriptions: [
@@ -52,7 +52,7 @@ const packagedServiceList = [
     ]
   },
   {
-    price: "$59",
+    price: "$79",
     name: "THE WHITE RUSSIAN",
     image: whiterussian,
     descriptions: [
@@ -63,7 +63,7 @@ const packagedServiceList = [
     ]
   },
   {
-    price: "$77",
+    price: "$82",
     name: "THE AMERICANO",
     image: americano,
     descriptions: [
@@ -74,7 +74,7 @@ const packagedServiceList = [
     ]
   },
   {
-    price: "$79",
+    price: "$84",
     name: "THE HOT TODDY",
     image: hottoddy,
     descriptions: [

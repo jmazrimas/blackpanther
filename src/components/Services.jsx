@@ -4,11 +4,11 @@ import BasicService from './services/BasicService';
 const serviceList = [
   {
     name: "HAIRCUTS",
-    price: "$32/$37",
+    price: "$42/$47",
   },
   {
     name: "PARAFFIN HAND TREATMENT",
-    price: "$10",
+    price: "$15",
   },
   {
     name: "BUZZ CUT",
@@ -16,15 +16,15 @@ const serviceList = [
   },
   {
     name: "BROW WAXING",
-    price: "$20",
+    price: "$25",
   },
   {
     name: "STRAIGHT RAZOR SPA SHAVE",
-    price: "$45",
+    price: "$60",
   },
   {
     name: "NECK WAXING",
-    price: "$20",
+    price: "$25",
   },
   {
     name: "URBAN SHAVE (CHEEKS AND NECK)",
@@ -36,27 +36,27 @@ const serviceList = [
   },
   {
     name: "MOUSTACHE AND BEARD TRIM",
-    price: "$20",
+    price: "$35",
   },
   {
     name: "CHEST AND BACK WAXING",
-    price: "$45+",
+    price: "$65",
   },
   {
     name: "HAIR AND SCALP TREATMENT",
-    price: "$20",
+    price: "$25",
   },
   {
     name: "CHEST TRIM",
-    price: "$20+",
+    price: "$25+",
   },
   {
     name: "COLOR BLENDING AND FULL COVERAGE",
-    price: "$40+",
+    price: "$45+",
   },
   {
     name: "DETOX FACIAL",
-    price: "$45",
+    price: "$55",
   },
 ]
 
